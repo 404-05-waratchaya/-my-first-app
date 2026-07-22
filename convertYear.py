@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("แอปพลิเคชั่นแปลงปี พ. ส. เป็น ค.ศ.")
+st.title("แอปพลิเคชั่นแปลงปี พ.ศ. เป็น ค.ศ.")
 
 bh_year=st.numger_input("กรอกปี พ.ศ. ที่ต้องการเปลี่ยนแปลง",value=2569)
 ce_year=bh_year-543
