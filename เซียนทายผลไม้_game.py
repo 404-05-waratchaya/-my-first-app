@@ -117,7 +117,7 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: มีเปลือกสีน้ำตาล มีขนอ่อน ๆ ด้านนอก แต่ข้างในเป็นสีเขียว มีเมล็ดเล็ก ๆ สีดำเต็มไปหมด",
+    "ข้อ 3: มีหนาม เนื้อข้างในสีเหลือง บางคนชอบ บางคนไม่ชอบ",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
