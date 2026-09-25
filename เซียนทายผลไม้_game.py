@@ -48,7 +48,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.success("✅ ข้อ 1: ใช่แล้ว คือ สัปปะรด🍍")
         score += 1
     else:
-        st.error(f"❌ ข้อ 1: ยังไม่ถูกจ่ะ มันคือสัปปะรด (คุณตอบ '{u_ans1}')")
+        st.error(f"❌ ข้อ 1: ยังไม่ถูกจ่ะ มันคือสัปปะรด🍍 (คุณตอบ '{u_ans1}')")
 
     # ตรวจข้อ 2
     if u_ans2 == "กีวี่":
@@ -69,14 +69,14 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.success("✅ ข้อ 4: เยสส มะม่วงไงจ้ะ🥭")
         score += 1
     else:
-        st.error(f"❌ ข้อ 4: ยังไม่ถูก คำตอบคือมะม่วงจ้า (คุณตอบ '{u_ans4}')")
+        st.error(f"❌ ข้อ 4: ยังไม่ถูก คำตอบคือมะม่วงจ้า🥭 (คุณตอบ '{u_ans4}')")
 
   # ตรวจข้อ 5
     if u_ans5 == "กล้วย":
         st.success("✅ ข้อ 5: เยีย กล้วย🍌")
         score += 1
     else:
-        st.error(f"❌ ข้อ 5: ยังไม่ถูกจ้า มันคือกล้วยเนาะะ (คุณตอบ '{u_ans5}')")
+        st.error(f"❌ ข้อ 5: ยังไม่ถูกจ้า มันคือกล้วยเนาะะ🍌 (คุณตอบ '{u_ans5}')")
 
     st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
 
@@ -86,7 +86,9 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.success("🔥 พยามดิว้าา")
     if score == 3:
         st.success("🔥 พยามดิว้าา")
-    if score == 4:
+    if score == 2:
+        st.success("🔥 พยามดิว้าา")
+    if score == 1:
         st.success("🔥 พยามดิว้าา")
     if score == 0:
         st.success("💀 กากว่ะว่ะ")
