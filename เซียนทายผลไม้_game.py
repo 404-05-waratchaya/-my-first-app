@@ -65,14 +65,14 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
     # ตรวจข้อ 4
-    if u_ans2 == "มะม่วง":
+    if u_ans4 == "มะม่วง":
         st.success("✅ ข้อ 4: เยสส มะม่วงไงจ้ะ🥭")
         score += 1
     else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
   # ตรวจข้อ 5
-    if u_ans2 == "กล้วย":
+    if u_ans5 == "กล้วย":
         st.success("✅ ข้อ 5: เยีย กล้วย🍌")
         score += 1
     else:
