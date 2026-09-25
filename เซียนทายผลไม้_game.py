@@ -84,6 +84,10 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5):
         st.success("🎉 เฮ้ย! โหดจ้าดดดด")
     if score == 4:
         st.success("🔥 พยามดิว้าา")
+    if score == 3:
+        st.success("🔥 พยามดิว้าา")
+    if score == 4:
+        st.success("🔥 พยามดิว้าา")
     if score == 0:
         st.success("💀 กากว่ะว่ะ")
 
